@@ -1,0 +1,36 @@
+.chat-room {
+    margin-top: 20px;
+  }
+  
+  .chat-room h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .message-list {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .message-list li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .message-list li:last-child {
+    border-bottom: none;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
