@@ -12,7 +12,7 @@ RUN npm run build --prod
 # Stage 2: Serve the application with Nginx
 FROM nginx:alpine
 
-COPY --from=build /app/dist/angular-chat /usr/share/nginx/html
+COPY --from=build /app/dist/angular-chat/browser /usr/share/nginx/html
 
 EXPOSE 80
 
